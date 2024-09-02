@@ -5,7 +5,7 @@
  */
 export function createHelloWorld (): (...args: any) => string
 {
-    return function (): string
+    return function (..._args: any): string
     {
         return "Hello World";
     };
